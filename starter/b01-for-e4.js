@@ -25,4 +25,9 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+let iNbr=prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par : ");
+for(let iMult=1;iMult<=10;iMult++){
+    let iResultat= iNbr*iMult;
+    console.log(`Voici les 10 premières valeurs de la table de multiplication par ${iNbr} : ${iMult}*${iNbr} = ${iResultat}`);
+}
 

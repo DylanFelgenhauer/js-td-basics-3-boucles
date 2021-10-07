@@ -18,6 +18,8 @@
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
 */
-
+for (let iNbr=0; iNbr<=20 ; iNbr=iNbr+2){
+    console.log(`${iNbr}`);
+}
 
 
