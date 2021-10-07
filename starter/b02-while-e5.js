@@ -19,7 +19,10 @@
 */
 
 // code de base sans le bonus
-
+/*let sLettre;
+while (sLettre!==('X')){
+    let sLettre=prompt("Entrez une lettre au choix. Saisissez X pour sortir.");
+}*/
 
 
 

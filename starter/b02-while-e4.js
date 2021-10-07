@@ -19,4 +19,10 @@
     - un titre : "Voici les 10 premières valeurs de la table de multiplication par …"
     - pour chaque valeur, le calcul et le résultat (par exemple : 1 * 7 = 7)
 */
-
+let iNbr= prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par : ");
+let iMult=1;
+while (iMult<=10){
+    let iResult=iNbr*iMult;
+    console.log(`Voici les 10 premières valeurs de la table de multiplication par ${iNbr} : ${iMult}*${iNbr} = ${iResult}`);
+    iMult++
+}
