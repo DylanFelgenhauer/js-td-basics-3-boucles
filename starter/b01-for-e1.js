@@ -23,7 +23,7 @@ EXEMPLE 1 :
 */
 
 // 1°) sans boucle
-
+console.log(`coucou`);
 
 // 2°) avec boucle FOR
 
