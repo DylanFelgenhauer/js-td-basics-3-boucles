@@ -15,3 +15,23 @@ RAPPELS - AIDES :
 - TIP : Cet exercice constitue un test d'embauche classique qui élimine un nombre significatif de candidats.
 	Accrochez-vous pour le réussir !
 */
+for (let iNbr=1 ; iNbr<=100 ; iNbr++) {
+    switch (true){
+        case ((iNbr % 3 === 0) && (iNbr % 5 === 0)) :
+            console.log(`FizzBuzz`);
+            break;
+
+
+        case ((iNbr % 5 === 0) && (iNbr % 3 != 0)):
+            console.log(`Buzz`);
+            break;
+
+        case (iNbr % 3 ===0):
+            console.log(`Fizz`);
+            break;
+
+        default:
+            console.log(`${iNbr}`);
+
+    }
+}
